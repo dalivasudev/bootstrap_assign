@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+	<!-- Website Title & Description for Search Engine purposes -->
+	<title>Assign 2- The First Website Using Booststrap</title>
+	<meta name="description" content="">
+
+	<!-- Mobile viewport optimized -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<!-- Bootstrap CSS -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!--external css-->
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina" rel="stylesheet" />
+	<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/external/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+
+	<!-- Custom CSS -->
+	<link href="includes/css/styles.css" rel="stylesheet">
+
+	<!-- Include Modernizr in the head, before any other Javascript -->
+	<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+</head>
+<body>
+	<section class="container">
+		<header class="navbar navbar-fixed-top">
+			<article class="container">
+
+				<!--toggle for collapsed navbar-->
+				<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+				<a class="navbar-brand pull-left" href="#"><img src="images/logo.png" alt="logo" id="logo" /></a>
+				<h3 class="nav navbar-nav" id="title" class="text-center text-info">NEW YORK</h3>
+				<nav class="navbar-responsive-collapse collapse nav-collapse">
+					<ul class="nav navbar-nav pull-right">
+						<li><a href="#">Home</a></li>
+						<li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Features<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Web Design</a></li>
+								<li><a href="#">Web Development</a></li>
+								<li><a href="#">Content Creation</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Pages</a></li>
+						<li><a href="#">Portfolio</a></li>
+						<li><a href="#">Blog</a></li>
+						<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Account<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li><a href="#"><span class="glyphicon glyphicon-globe"></span> Settings</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-refresh"></span> Profile</a></li>
+								<li class="sectionider"></li>
+								<li><a href="#"><span class="glyphicon glyphicon-download-alt"></span> Downloads</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Short Codes</a></li>
+					</ul>
+				</nav><!--navbar-collapse-->
+			</article><!--end container-->
+		</header><!--end navbar-->
+	
+		<section class="carousel slide" data-ride="carousel" id="myCarousel">
+				<!--indicators-->
+				<ol class="carousel-indicators">
+					<li class="active" data-target="#myCarousel" data-slide-to="0" ></li>
+					<li data-target="#myCarousel" data-slide-to="1" ></li>
+					<li data-target="#myCarousel" data-slide-to="2" ></li>
+				</ol>
+				<!--wrapping classes-->
+				<section class="carousel-inner">
+					<section class="item active" id="slide1">
+						<img src="images/img4.jpg" alt="image" />
+						<section class="carousel-caption ">
+							<h3 class="text-center">New York</h3>
+						</section>
+					</section><!--end item-->
+
+
+					<section class="item " id="slide2">
+						<img src="images/img3.jpg" alt="image" id="imgcarousal" />
+						<section class="carousel-caption">
+							<h3>New York image</h3>
+						</section>
+					</section><!--end item-->
+
+
+					<section class="item" id="slide3">
+						<img src="images/img4.jpg" alt="image" />
+						<section class="carousel-caption">
+							<h3>New York City</h3>
+						</section>
+					</section><!--end item-->
+				</section><!--end inner-->
+
+				<!--controls-->
+				<a href="#myCarousel" data-slide="prev" class="left carousel-control"><span class="icon-prev"></span></a>
+				<a href="#myCarousel" data-slide="next" class="right carousel-control"><span class="icon-next"></span></a>
+			</section><!--end carousel-->
+		
+		<section class="row jumbotron" id="featuresHeading">
+			<article class="col_12">
+				<h2>More Info</h2>
+				<p class="lead">
+					The state of New York, with an estimated 19.8 million residents in 2015, is often referred to as New York State to distinguish it from New York City, the state's most populous city and its economic hub.
+				</p>
+			</article>
+		</section><!--end featuresHeading-->
+
+		<section class="row" id="features">
+			<section class="col-sm-4 feature">
+				<section class="panel">
+					<article class="panel-heading">
+						<h3>Geography</h3>
+					</article>
+					<img src="images/img1.jpg" alt="img"  class="img-circle" />
+					<p>
+						New York covers 54,555 square miles (141,300 km2) and ranks as the 27th largest state by size. The Great Appalachian Valley dominates eastern New York and contains the Lake Champlain Valley as its northern half and the Hudson Valley as its southern half within the state. 
+					</p>
+				</section>
+			</section><!--feature-->
+			<section class="col-sm-4 feature">
+				<section class="panel">
+					<section class="panel-heading">
+						<h3>Climate</h3>
+					</section>
+					<img src="images/img2.jpg" alt="img" class="img-circle" />
+					<p>
+						In general, New York has a humid continental climate, though under the Koppen climate classification, New York City has a humid subtropical climate. Weather in New York is heavily influenced by two continental air masses: a warm, humid one from the southwest and a cold, dry one from the northwest.
+					</p>
+				</section>
+			</section><!--feature-->
+			<section class="col-sm-4 feature">
+				<section class="panel">
+					<section class="panel-heading">
+						<h3>Major Cities</h3>
+					</section>
+					<img src="images/img3.jpg" alt="img" class="img-circle" />
+					<p>
+						There are 62 cities in New York. The largest city in the state and the most populous city in the United States is New York City, which comprises five counties (each coextensive with a borough): Bronx, New York County (Manhattan), Queens, Kings County (Brooklyn), and Richmond County (Staten Island).
+					</p>
+				</section>
+			</section><!--feature-->
+		</section><!--end features-->
+
+
+		<section class="row" id="more_info">
+			<section class="col-sm-6">
+				<section class="tabbable">
+					<ul class="nav nav-tabs">
+						<li class="active"><a href="#tab1" data-toggle="tab">Location</a></li>
+						<li><a href="#tab2" data-toggle="tab">Government</a></li>
+					</ul>
+					<section class="tab-content">
+						<section class="tab-pane active" id="tab1">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387145.8666616757!2d-74.25819524498877!3d40.70531098717965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sin!4v1480250638272" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+							<h4><span class="glyphicon glyphicon-map-marker"></span> Location</h4>
+							<p >
+								New York is a state in the northeastern United States, and is the 27th-most extensive, fourth-most populous, and seventh-most densely populated U.S. state.New York had been inhabited by tribes of Algonquian and Iroquoian-speaking Native Americans for several hundred years by the time the earliest Europeans came to New York. The first Europeans to arrive were French colonists and Jesuit missionaries who arrived southward from settlements at Montreal for trade and proselytizing. In 1609, the region was claimed by Henry Hudson for the Dutch, who built Fort Nassau in 1614 at the confluence of the Hudson and Mohawk rivers, where the present-day capital of Albany later developed. The Dutch soon also settled New Amsterdam and parts of the Hudson Valley, establishing the colony of New Netherland, a multicultural community from its earliest days and a center of trade and immigration. The British annexed the colony from the Dutch in 1664. The borders of the British colony, the Province of New York, were similar to those of the present-day state.
+							</p>
+						</section>
+						<section class="tab-pane" id="tab2">
+							<h4>Government</h4>
+							<p>
+								Due to its long history, New York has several overlapping and often conflicting definitions of regions within the state. The regions are also not fully definable due to colloquial use of regional labels. The New York State Department of Economic Development provides two distinct definitions of these regions; it sectionides the state into ten economic regions, which approximately correspond to terminology used by residents:
+							</p>
+							<ul>
+								<li>
+									Western New York</li>
+									<li>Finger Lakes</li>
+									<li>Southern Tier</li>
+									<li>Central New York</li>
+									<li>North Country</li>
+									<li>Mohawk Valley</li>
+									<li>Capital District</li>
+									<li>Hudson Valley</li>
+									<li>New York City</li>
+									<li>Long Island</li>
+								</ul>
+								<a href="#myModal" type="button" class="btn btn-info btn-primary" data-toggle="modal">Click me</a>
+								<section class="modal fade" id="myModal">
+									<article class="modal-dialog">
+										<section class="modal-content">
+											<article class="modal-header">
+												<h4 class="modal-title">Welcome</h4>
+												<button class="close" data-dismiss="modal" type="button">&times;</button>
+											</article><!--end modal-header-->
+											<p>
+												The state of New York, with an estimated 19.8 million residents in 2015, is often referred to as New York State to distinguish it from New York City, the state's most populous city and its economic hub.
+											</p>
+										</section><!--end modal-content-->
+									</article><!--end modal-dialog-->
+								</section><!--end modal-->
+							</section><!--end tab pane-->
+						</section><!--end tab content-->
+					</section>
+				</section>
+				<section class="col-sm-6">
+					<h2>Silicon Alley</h2>
+					<p>
+						Silicon Alley, centered in New York City, has evolved into a metonym for the sphere encompassing the New York City metropolitan region's high technology and entrepreneurship ecosystem; in 2015, Silicon Alley generated over US$7.3 billion in venture capital investment.[27] High tech industries including digital media, biotechnology, software development, game design, and other fields in information technology are growing, bolstered by New York City's position at the terminus of several transatlantic fiber optic trunk lines,[146] its intellectual capital, as well as its growing outdoor wireless connectivity
+					</p>
+					<h3>List of Economy</h3>
+					<section class="list-group">
+						<a href="" class="list-group-item">
+							<h4 class="list-group-item-heading">Economy</h4>
+							<p class="list-group-item-text">
+								New York's gross state product in 2015 was $1.44 trillion. If New York State were an independent nation, it would rank as the 12th or 13th largest economy in the world, depending upon international currency fluctuations. However, in 2013, the multi-state, New York City-centered Metropolitan Statistical Area produced a gross metropolitan product (GMP) of nearly US$1.39 trillion
+							</p>
+						</a>
+						<a href="" class="list-group-item">
+							<h4 class="list-group-item-heading">Wall Street</h4>
+							<p class="list-group-item-text">
+								Anchored by Wall Street in the Financial District of Lower Manhattan, New York City has been called both the most economically powerful city and the leading financial center of the world.
+							</p>
+						</a>
+						<a href="" class="list-group-item">
+							<h4 class="list-group-item-heading">Tourism</h4>
+							<p class="list-group-item-text">
+								I Love New York (stylized I ❤ NY) is both a logo and a song that are the basis of an advertising campaign and have been used since 1977 to promote tourism in New York City.
+							</p>
+						</a>
+					</section>
+					<h3>Exports</h3>
+					<p>
+						The University of the State of New York accredits and sets standards for primary, middle-level, and secondary education in the state, while the New York State Education Department oversees public schools and controls their standardized tests. The New York City Department of Education manages the New York City Public Schools system.
+					</p>
+				</section>
+			</section><!-- end row-->
+		</section><!--end main container-->
+
+		<footer>
+			<section class="container">
+				<section class="row">
+					<section class="col-sm-2">
+						<h6>Copyright &copy; 2016 Dali Vasudev</h6>
+					</section>
+					<section class="col-sm-4">
+						<h6>About us</h6>
+						<p>
+							Customized Tour Packages to New York within Your Budget. Key Destinations of USA. Plan Your Trip to New York with Our Lowest Fare. Book Cheap Flight Today &amp; Save!
+							Book 450+ Airlines
+						</p>
+					</section>
+					<section class="col-sm-2">
+						<h6>Naviation</h6>
+						<ul class="unstyled">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Services</a></li>
+							<li><a href="#">Links</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</section>
+					<section class="col-sm-2">
+						<h6>Follow Us</h6>
+						<ul class="unstyled">
+							<li><a href="#"><i class="fa fa-facebook" aria-hidden="true" title="Facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true" title="LinkedIn"></i></a></li>
+							<li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true" title="Whatsapp"></i></a></li>
+							<li><a href="#"><i class="fa fa-instagram" aria-hidden="true" title="Instagram"></i></a></li>
+						</ul>
+					</section><!--end col-sm-2-->
+					<section class="col-sm-2">
+						<h6>Coded with <span class="glyphicon glyphicon-heart"></span> by Dali Vasudev</h6>
+					</section><!--end col-sm-2-->
+
+				</section>
+			</section>
+		</footer>
+
+		<!-- All Javascript at the bottom of the page for faster page loading -->
+
+		<!-- First try for the online version of jQuery-->
+		<script src="http://code.jquery.com/jquery.js"></script>
+
+		<!-- If no online access, fallback to our hardcoded version of jQuery -->
+		<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+		<!-- Bootstrap JS -->
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+
+		<!-- Custom JS -->
+		<script src="includes/js/script.js"></script>
+
+	</body>
+	</html>

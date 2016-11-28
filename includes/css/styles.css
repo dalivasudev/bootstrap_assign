@@ -1,0 +1,171 @@
+/*
+
+My Custom CSS
+=============
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+   #features {
+      text-align: center;
+   }
+
+   #features .panel img {
+      margin:0 0 20px;
+      height: 300px;
+      width: 90%;
+   }
+
+   footer {
+      background: #333;
+      color: #eee;
+      font-size: 15px;
+      padding: 20px;
+   }
+   #featuresHeading {
+      margin-top: 20px;
+   }
+
+   #more_info {
+      padding-bottom: 15px;
+      margin-bottom: 10px;
+   }
+   .tab-pane p ,.list-group p {
+      font-family: 'Baloo Bhaina', cursive;
+   }
+
+   .lead {
+      font-family: 'Gloria Hallelujah', cursive;
+   }
+
+
+   .modal-content p {
+      font-family: sans-serif;
+   }
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+   ul.unstyled {
+      list-style: none;
+      padding: 0;
+   }
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   #logo {
+      width: 150px;
+      height: 100px;
+   }
+   
+   #title {
+      display: inline;
+      margin-top: 5%;
+     font-size: 25px;
+   }
+   .navbar-brand {
+      padding: 13px 15px;
+   }
+
+   .navbar-nav {
+      margin-top: 20px;
+      font-family:'Baloo Bhaina', cursive;
+      font-size: 20px;
+   }
+   
+   .navbar-nav li a:hover{
+      text-decoration: underline;
+   }
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+   #myCarousel {
+      margin-top: 150px;
+   }
+   #myCarousel .item{
+      height: 400px;
+   }
+   #slide1 {
+      background: url("../../images/img4.jpg") top-center no-repeat;
+      width: 100%;
+   }
+   #slide2 {
+      background: url('../../images/img2.jpg') top-center no-repeat;
+      width: 100%;
+   }
+
+   #slide3 {
+      background: url('../../images/img3.jpg') top-center no-repeat;
+      width: 100%;
+   }
+   #imgcarousal {
+      width: 100%;
+   }
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- 
+
+    Portrait & landscape phone */
+   @media (max-width: 480px) {
+    /* .slide #slide1, .slide #slide2, .slide #slide3 {
+      width: 300px;
+      height: 300px;
+   }*/
+   #myCarousel {
+      margin-top: 150px;
+      height: 200px;
+   }
+   #logo {
+      width: 70px;
+      height: 40px;
+   }
+   #title {
+      margin-top: 5%;
+      font-size: 20px;
+   }
+   .corousal-inner {
+   height: 200px;
+   }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+   /*.slide #slide1, .slide #slide2, .slide #slide3 {
+      width: 800px;
+      height: 300px;
+   }*/
+
+   .navbar-nav {
+      width: 300px;
+      font-size: 20px;
+   }
+   /*#myCarousel {
+      margin-top: 150px;
+   }*/
+}
+
+/* Large desktop 
+@media (min-width: 1200px) {
+   .slide #slide1,.slide #slide2,.slide #slide3 {
+      width: 1200px;
+      height: 500px;
+   }
+   #myCarousel {
+      margin-top: 150px;
+   }
+}*/
+
+myCarousel img {
+   height: 100%;
+}
